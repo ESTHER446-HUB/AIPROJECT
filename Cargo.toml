@@ -3,7 +3,7 @@ name = "ai-mood-companion"
 version = "0.1.0"
 edition = "2021"
 description = "A simple AI-based application that responds to a user's daily mood and provides supportive messages and lifestyle suggestions"
-authors = ["Esther kuria"]
-wanjiruekuria@gmail.com
+authors = ["Esther Kuria <wanjiruekuria@gmail.com>"]
+
 [dependencies]
 rand = "0.8"
