@@ -8,9 +8,10 @@ This project demonstrates basic AI logic applied to personal and lifestyle appli
 
 ## Features
 
-- **Mood Selection**: Users can choose from 7 predefined moods: Happy, Sad, Anxious, Excited, Tired, Angry, and Grateful
-- **Personalized Responses**: Each mood has multiple supportive messages and activity suggestions
-- **Random Selection**: The app randomly selects from available responses for variety
+- **Mood Selection**: Users can choose from 10 predefined moods: Happy, Sad, Anxious, Excited, Tired, Angry, Grateful, Stressed, Lonely, and Motivated
+- **Interactive Support Categories**: After selecting a mood, users choose from 5 different types of support tailored to that emotion
+- **Personalized Responses**: Each mood has multiple supportive messages and categorized activity suggestions
+- **Random Selection**: Within each category, suggestions are randomly selected for variety
 - **Console-Based Interface**: Simple, easy-to-use command-line interface
 - **Ethical Design**: Focuses on emotional support and positive habits
 
@@ -49,11 +50,10 @@ Follow the prompts to select your current mood and receive personalized support.
 
 ## How It Works
 
-1. **Mood Input**: The user selects their current mood from a numbered list
-2. **Response Generation**: Based on the selected mood, the system randomly chooses:
-   - A supportive message acknowledging their feelings
-   - An activity suggestion to help improve their mood or well-being
-3. **Display**: The personalized response is displayed to the user
+1. **Mood Input**: The user selects their current mood from a numbered list of 10 options
+2. **Support Category Selection**: Based on the chosen mood, the user selects from 5 different types of support (e.g., for anger: Physical Release, Emotional Processing, etc.)
+3. **Personalized Response**: The system provides a supportive message and a specific suggestion from the chosen category
+4. **Display**: The personalized response is displayed to the user
 
 ## Example Interaction
 
@@ -68,12 +68,25 @@ How are you feeling today?
 5. Tired
 6. Angry
 7. Grateful
+8. Stressed
+9. Lonely
+10. Motivated
 
-Enter the number corresponding to your mood: 1
+Enter the number corresponding to your mood: 6
 
-Based on your mood 'Happy':
-💙 I'm glad you're feeling happy! Keep spreading that positive energy.
-💡 Suggestion: Share your joy with a loved one by calling them.
+Great! For feeling Angry, here are some types of support you can choose from:
+
+1. Physical Release
+2. Emotional Processing
+3. Communication
+4. Creative Expression
+5. Self-Regulation
+
+Enter the number for the type of support you'd like: 1
+
+Based on your mood 'Angry' and choice of 'Physical Release':
+💙 Your anger is telling you something important about your needs.
+💡 Suggestion: Try physical activity like punching a pillow or going for a run.
 
 Remember, your feelings are valid, and taking care of your emotional well-being is important.
 Come back anytime for more support!
